@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+/* Estilos para todo el proyecto */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Rubik', Arial, sans-serif;
+    background: linear-gradient( #e45757e1, rgba(0, 0, 0, 0.975));
+    height: 100vh;
+}
+
+.contenedor-centrado {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h3 {
+    text-align: center;
+    color: white;
+}
+
+h2, h4, h5, h6 {
+    text-align: center;
+    color: #007bff;
+}
+
+.img {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(185,144, 144);
+    border-radius: 11px;
+}
+
+table {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(185, 144, 144);
+    border-radius: 11px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0.1px solid #cccccc;
+    border-radius: 11px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #a600ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #7a00b3;
+}
+
+button {
+    padding: 8px;
+    margin:4px;
+    background-color: #a600ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7a00b3;
+}
+
+a {
+    padding: 8px;
+    margin:4px;
+    background-color: #fd4a13;
+    color: #ffffff;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 85%;
+}
+
+a:hover {
+    background-color: #cd7b00;
+}
